@@ -68,7 +68,24 @@ def identity():
     i.provides.add(any_user)
     i.provides.add(system_process)
     return i
+
 @pytest.fixture(scope="module")
 def nrvoc_service(app):
     """Vocabularies service object."""
     return app.extensions["nr-vocabularies"].service
+
+@pytest.fixture(scope="function")
+def clean_es(app, nrvoc_service, identity):
+    try:
+        NRVocabulary.index.refresh()
+        for rec in NRVocabulary.index.search().scan():
+            uuid = rec['uuid']
+            try:
+                NRVocabulary.index.connection.delete(
+                    NRVocabulary.index._name,
+                    uuid
+                )
+            except:
+                pass
+    except:
+        pass
