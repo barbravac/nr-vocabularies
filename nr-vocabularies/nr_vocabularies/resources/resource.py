@@ -1,5 +1,5 @@
 from invenio_records_resources.resources import RecordResource as InvenioRecordResource
-from oarepo_vocabularies.resources.resource import OARepoVocabulariesResourceBase
+
 
 
 class NRVocabulariesResource(InvenioRecordResource):
