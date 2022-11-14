@@ -50,9 +50,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install --upgrade setuptools wheel babel
 
-      - name: Run build
-        run: |
-          ./build.sh
+      
 
       - name: Install dependencies from basic-local config
         run: |
@@ -61,6 +59,10 @@ jobs:
           pip freeze
           docker --version
           docker-compose --version
+          
+      - name: Run build
+          run: |
+            ./build.sh
 
       - name: Run tests
         run: |
