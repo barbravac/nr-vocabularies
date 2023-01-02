@@ -139,10 +139,12 @@
                     "path": {
                         "type": "text",
                         "copy_to": "hierarchy_reverse_path",
+                        "analyzer": "standard",
                         "search_analyzer": "standard"
                     },
                     "reverse_path": {
                         "type": "text",
+                        "analyzer": "standard",
                         "search_analyzer": "standard"
                     }
                 }
