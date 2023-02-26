@@ -1,64 +1,95 @@
+# -*- coding: utf-8 -*-
+#
+# Copyright (C) 2020 CERN.
+# Copyright (C) 2021 TU Wien.
+#
+# Invenio-Vocabularies is free software; you can redistribute it and/or
+# modify it under the terms of the MIT License; see LICENSE file for more
+# details.
+
+"""Pytest configuration.
+
+See https://pytest-invenio.readthedocs.io/ for documentation on which test
+fixtures are available.
+"""
+
+# Monkey patch Werkzeug 2.1, needed to import flask_security.login_user
+# Flask-Login uses the safe_str_cmp method which has been removed in Werkzeug
+# 2.1. Flask-Login v0.6.0 (yet to be released at the time of writing) fixes the
+# issue. Once we depend on Flask-Login v0.6.0 as the minimal version in
+# Flask-Security-Invenio/Invenio-Accounts we can remove this patch again.
+try:
+    # Werkzeug <2.1
+    from werkzeug import security
+
+    security.safe_str_cmp
+except AttributeError:
+    # Werkzeug >=2.1
+    import hmac
+
+    from werkzeug import security
+
+    security.safe_str_cmp = hmac.compare_digest
+
+
+
 import pytest
-from invenio_vocabularies.records.models import VocabularyType
 from flask_principal import Identity, Need, UserNeed
-from flask_security import login_user
-from flask_security.utils import hash_password
-from nr_vocabularies.records.api import NRVocabulary
-from invenio_access.permissions import ActionUsers, any_user, system_process
+from invenio_access.permissions import any_user, system_process
 from invenio_app.factory import create_api as _create_api
-from oarepo_vocabularies.datastreams.excel import ExcelReader
-from oarepo_vocabularies.datastreams.hierarchy import HierarchyTransformer
-from nr_vocabularies.proxies import current_service as nr_service
+
+pytest_plugins = ("celery.contrib.pytest",)
+
+
+@pytest.fixture(scope="module")
+def h():
+    """Accept JSON headers."""
+    return {"accept": "application/json"}
+
+
 @pytest.fixture(scope="module")
 def extra_entry_points():
     """Extra entry points to load the mock_module features."""
-    return {
-
-    }
+    return {}
 
 
-@pytest.fixture(scope="module")
-def create_app(instance_path, entry_points):
-    """Application factory fixture."""
-    return _create_api
-@pytest.fixture()
-def lang_type(db):
-    """Get a language vocabulary type."""
-    v = VocabularyType.create(id="languages", pid_type="lng")
-    db.session.commit()
-    return v
-
-@pytest.fixture(scope="function")
-def lang_data():
-    """Example data."""
-    return {
-        "id": "eng",
-        "title": {"en": "English", "cs": "Angličtina"},
-        "description": {"en": "English description", "cs": "Anglický popis"},
-        "icon": "file-o",
-        "type": "languages",
-    }
 @pytest.fixture(scope="module")
 def app_config(app_config):
     """Mimic an instance's configuration."""
     app_config["JSONSCHEMAS_HOST"] = "localhost"
     app_config["BABEL_DEFAULT_LOCALE"] = "en"
-    app_config["I18N_LANGUAGES"] = [("cs", "Czech")]
+    app_config["I18N_LANGUAGES"] = [("da", "Danish")]
     app_config[
         "RECORDS_REFRESOLVER_CLS"
     ] = "invenio_records.resolver.InvenioRefResolver"
     app_config[
         "RECORDS_REFRESOLVER_STORE"
     ] = "invenio_jsonschemas.proxies.current_refresolver_store"
-    app_config['VOCABULARIES_DATASTREAM_READERS'] = {
-        "excel": ExcelReader,
-    }
-    app_config['VOCABULARIES_DATASTREAM_TRANSFORMERS'] = {
-        "hierarchy": HierarchyTransformer,
-    }
-    app_config['OAREPO_VOCABULARIES_DEFAULT_SERVICE'] = nr_service
+
+    # note: This line must always be added to the invenio.cfg file
+    from oarepo_vocabularies.resources.config import VocabulariesResourceConfig
+    from oarepo_vocabularies.services.config import VocabulariesConfig
+
+    app_config["VOCABULARIES_SERVICE_CONFIG"] = VocabulariesConfig
+    app_config["VOCABULARIES_RESOURCE_CONFIG"] = VocabulariesResourceConfig
 
     return app_config
+
+
+@pytest.fixture(scope="module")
+def create_app(instance_path, entry_points):
+    """Application factory fixture."""
+    return _create_api
+
+
+@pytest.fixture(scope="module")
+def identity_simple():
+    """Simple identity fixture."""
+    i = Identity(1)
+    i.provides.add(UserNeed(1))
+    i.provides.add(Need(method="system_role", value="any_user"))
+    return i
+
 
 @pytest.fixture(scope="module")
 def identity():
@@ -69,23 +100,9 @@ def identity():
     i.provides.add(system_process)
     return i
 
-@pytest.fixture(scope="module")
-def nrvoc_service(app):
-    """Vocabularies service object."""
-    return app.extensions["nr-vocabularies"].service
 
-@pytest.fixture(scope="function")
-def clean_es(app, nrvoc_service, identity):
-    try:
-        NRVocabulary.index.refresh()
-        for rec in NRVocabulary.index.search().scan():
-            uuid = rec['uuid']
-            try:
-                NRVocabulary.index.connection.delete(
-                    NRVocabulary.index._name,
-                    uuid
-                )
-            except:
-                pass
-    except:
-        pass
+@pytest.fixture()
+def vocab_cf(app, db, cache):
+    from oarepo_runtime.cf.mappings import prepare_cf_indices
+
+    prepare_cf_indices()
