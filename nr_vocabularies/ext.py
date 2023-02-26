@@ -1,5 +1,3 @@
-
-
 class NRVocabulariesExt:
     """extension."""
 
@@ -26,8 +24,7 @@ class NRVocabulariesExt:
 
         from .customfields import HintCF, NonPreferredLabelsCF, RelatedURICF
 
-        app.config.setdefault(
-            "OAREPO_VOCABULARIES_CUSTOM_CF",
+        app.config.setdefault("OAREPO_VOCABULARIES_CUSTOM_CF", []).extend(
             [
                 KeywordCF("blah"),
                 RelatedURICF("relatedURI"),
