@@ -5,16 +5,16 @@ vocabulary-access-rights:
     title:
       cs: Přístupová práva
       en: Access rights
-  - source: accessRights.xlsx
+  - source: access-rights.xlsx
 
-vocabulary-contributor-types:
+vocabulary-contributor-roles:
   - writer: vocabulary
-    vocabulary: contributor-types
+    vocabulary: contributor-roles
     pid_type: v-ct
     title:
       cs: Role přispěvatele
       en: Contributor Type
-  - source: contributorType.xlsx
+  - source: contributor-roles.xlsx
 
 vocabulary-countries:
   - writer: vocabulary
@@ -50,7 +50,7 @@ vocabulary-item-relation-types:
     title:
       cs: Typ vztahu popisovaného dokumentu k propojené jednotce
       en: The type of relationship of the described document to the interconnected item (unit)
-  - source: itemRelationType.xlsx
+  - source: item-relation-types.xlsx
 
 vocabulary-languages:
   - writer: vocabulary
@@ -77,16 +77,7 @@ vocabulary-resource-types:
     title:
       cs: Typ zdroje
       en: Resource type
-  - source: resourceType.xlsx
-
-vocabulary-related-resource-types:
-  - writer: vocabulary
-    vocabulary: related-resource-types
-    pid_type: v-rel
-    title:
-      cs: Typ přidruženého zdroje
-      en: Related resource type
-  - source: resourceType_relatedItem.xlsx
+  - source: resource-types.xlsx
 
 vocabulary-subject-categories:
   - writer: vocabulary
@@ -95,4 +86,14 @@ vocabulary-subject-categories:
     title:
       cs: Oborové třídění
       en: Subject categories
-  - source: subjectCategories.xlsx
+  - source: subject-categories.xlsx
+
+# not ok
+# vocabulary-related-resource-types:
+#   - writer: vocabulary
+#     vocabulary: related-resource-types
+#     pid_type: v-rel
+#     title:
+#       cs: Typ přidruženého zdroje
+#       en: Related resource type
+#   - source: resourceType_relatedItem.xlsx
