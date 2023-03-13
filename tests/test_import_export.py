@@ -1,4 +1,3 @@
-
 import tempfile
 
 from invenio_vocabularies.records.api import Vocabulary
@@ -9,7 +8,7 @@ def test_complex_import_export(app, db, cache, search_clear, vocab_cf):
     result = load_fixtures()
     assert result.failed_count == 0
     assert result.skipped_count == 0
-    assert len(result.results) == 11
+    assert len(result.results) == 10
     Vocabulary.index.refresh()
     with tempfile.TemporaryDirectory() as d:
         dump_result = dump_fixtures(d)
