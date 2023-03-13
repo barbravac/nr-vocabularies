@@ -87,13 +87,3 @@ vocabulary-subject-categories:
       cs: Oborové třídění
       en: Subject categories
   - source: subject-categories.xlsx
-
-# not ok
-# vocabulary-related-resource-types:
-#   - writer: vocabulary
-#     vocabulary: related-resource-types
-#     pid_type: v-rel
-#     title:
-#       cs: Typ přidruženého zdroje
-#       en: Related resource type
-#   - source: resourceType_relatedItem.xlsx
