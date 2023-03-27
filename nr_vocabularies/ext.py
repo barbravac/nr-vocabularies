@@ -26,7 +26,6 @@ class NRVocabulariesExt:
 
         app.config.setdefault("OAREPO_VOCABULARIES_CUSTOM_CF", []).extend(
             [
-                KeywordCF("blah"),
                 RelatedURICF("relatedURI"),
                 HintCF("hint"),
                 NonPreferredLabelsCF("nonpreferredLabels"),
