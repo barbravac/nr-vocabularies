@@ -7,6 +7,7 @@ from oarepo_runtime.uow import BulkUnitOfWork
 
 def test_complex_import_export(app, db, cache, search_clear, vocab_cf):
     result = load_fixtures(batch_size=100, uow_class=BulkUnitOfWork)
+    print(result)
     assert result.failed_count == 0
     assert result.skipped_count == 0
     assert len(result.results) == 10
