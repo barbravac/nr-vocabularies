@@ -87,3 +87,12 @@ vocabulary-subject-categories:
       cs: Oborové třídění
       en: Subject categories
   - source: subject-categories.xlsx
+
+vocabulary-community-types:
+  - writer: vocabulary
+    vocabulary: communitytypes
+    pid_type: v-comm
+    title:
+      cs: Typy komunit
+      en: Community types
+  - source: community_types.yaml
