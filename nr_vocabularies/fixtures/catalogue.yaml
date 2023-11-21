@@ -95,4 +95,4 @@ vocabulary-community-types:
     title:
       cs: Typy komunit
       en: Community types
-  - source: community_types.yaml
+  - source: community-types.xlsx
