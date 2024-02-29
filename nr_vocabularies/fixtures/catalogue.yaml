@@ -61,14 +61,14 @@ vocabulary-languages:
       en: Languages
   - source: languages.xlsx
 
-vocabulary-licenses:
+vocabulary-rights:
   - writer: vocabulary
-    vocabulary: licenses
+    vocabulary: rights
     pid_type: v-lic
     title:
       cs: Licence
       en: Licenses
-  - source: licenses.xlsx
+  - source: rights.xlsx
 
 vocabulary-resource-types:
   - writer: vocabulary
