@@ -7,14 +7,14 @@ vocabulary-access-rights:
       en: Access rights
   - source: access-rights.xlsx
 
-vocabulary-contributor-roles:
+vocabulary-contributor-types:
   - writer: vocabulary
-    vocabulary: contributor-roles
+    vocabulary: contributor-types
     pid_type: v-ct
     title:
       cs: Role přispěvatele
       en: Contributor Type
-  - source: contributor-roles.xlsx
+  - source: contributor-types.xlsx
 
 vocabulary-countries:
   - writer: vocabulary
