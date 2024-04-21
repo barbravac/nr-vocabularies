@@ -1,3 +1,6 @@
+from nr_vocabularies.config import NR_VOCABULARIES_CF
+
+
 class NRVocabulariesExt:
     """extension."""
 
@@ -20,14 +23,4 @@ class NRVocabulariesExt:
             ["affiliations", "awards", "funders", "names", "subjects"]
         )
 
-        from invenio_records_resources.services.custom_fields.text import KeywordCF
-
-        from .customfields import HintCF, NonPreferredLabelsCF, RelatedURICF
-
-        app.config.setdefault("VOCABULARIES_CF", []).extend(
-            [
-                RelatedURICF("relatedURI"),
-                HintCF("hint"),
-                NonPreferredLabelsCF("nonpreferredLabels"),
-            ],
-        )
+        app.config.setdefault("VOCABULARIES_CF", []).extend(NR_VOCABULARIES_CF)
