@@ -1,4 +1,4 @@
-from nr_vocabularies.customfields import RelatedURICF, HintCF, NonPreferredLabelsCF
+from nr_vocabularies.customfields import HintCF, NonPreferredLabelsCF, RelatedURICF
 
 NR_VOCABULARIES_CF = [
     RelatedURICF("relatedURI"),

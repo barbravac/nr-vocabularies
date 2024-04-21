@@ -1,10 +1,10 @@
+import logging
 import tempfile
 
 from invenio_vocabularies.records.api import Vocabulary
 from oarepo_runtime.datastreams.fixtures import dump_fixtures, load_fixtures
 from oarepo_runtime.datastreams.types import StatsKeepingDataStreamCallback
 
-import logging
 logging.basicConfig(level=logging.WARNING)
 
 

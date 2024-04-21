@@ -32,7 +32,6 @@ except AttributeError:
     security.safe_str_cmp = hmac.compare_digest
 
 
-
 import pytest
 from flask_principal import Identity, Need, UserNeed
 from invenio_access.permissions import any_user, system_process
@@ -59,12 +58,12 @@ def app_config(app_config):
     app_config["JSONSCHEMAS_HOST"] = "localhost"
     app_config["BABEL_DEFAULT_LOCALE"] = "en"
     app_config["I18N_LANGUAGES"] = [("da", "Danish")]
-    app_config[
-        "RECORDS_REFRESOLVER_CLS"
-    ] = "invenio_records.resolver.InvenioRefResolver"
-    app_config[
-        "RECORDS_REFRESOLVER_STORE"
-    ] = "invenio_jsonschemas.proxies.current_refresolver_store"
+    app_config["RECORDS_REFRESOLVER_CLS"] = (
+        "invenio_records.resolver.InvenioRefResolver"
+    )
+    app_config["RECORDS_REFRESOLVER_STORE"] = (
+        "invenio_jsonschemas.proxies.current_refresolver_store"
+    )
 
     # note: This line must always be added to the invenio.cfg file
     from oarepo_vocabularies.resources.config import VocabulariesResourceConfig
