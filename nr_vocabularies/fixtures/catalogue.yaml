@@ -5,7 +5,7 @@ vocabulary-access-rights:
     title:
       cs: Přístupová práva
       en: Access rights
-  - source: access-rights.xlsx
+  - source: access-rights.yaml
 
 vocabulary-contributor-types:
   - writer: vocabulary
@@ -14,7 +14,7 @@ vocabulary-contributor-types:
     title:
       cs: Role přispěvatele
       en: Contributor Type
-  - source: contributor-types.xlsx
+  - source: contributor-types.yaml
 
 vocabulary-countries:
   - writer: vocabulary
@@ -23,7 +23,7 @@ vocabulary-countries:
     title:
       cs: Státy
       en: Countries
-  - source: countries.xlsx
+  - source: countries.yaml
 
 vocabulary-funders:
   - writer: vocabulary
@@ -32,7 +32,7 @@ vocabulary-funders:
     title:
       cs: Poskytovatelé finanční podpory
       en: Research funders
-  - source: funders.xlsx
+  - source: funders.yaml
 
 vocabulary-institutions:
   - writer: vocabulary
@@ -41,7 +41,7 @@ vocabulary-institutions:
     title:
       cs: Instituce
       en: Institutions
-  - source: institutions.xlsx
+  - source: institutions.yaml
 
 vocabulary-item-relation-types:
   - writer: vocabulary
@@ -50,7 +50,7 @@ vocabulary-item-relation-types:
     title:
       cs: Typ vztahu popisovaného dokumentu k propojené jednotce
       en: The type of relationship of the described document to the interconnected item (unit)
-  - source: item-relation-types.xlsx
+  - source: item-relation-types.yaml
 
 vocabulary-languages:
   - writer: vocabulary
@@ -59,7 +59,7 @@ vocabulary-languages:
     title:
       cs: Jazyky
       en: Languages
-  - source: languages.xlsx
+  - source: languages.yaml
 
 vocabulary-rights:
   - writer: vocabulary
@@ -68,7 +68,7 @@ vocabulary-rights:
     title:
       cs: Licence
       en: Licenses
-  - source: rights.xlsx
+  - source: rights.yaml
 
 vocabulary-resource-types:
   - writer: vocabulary
@@ -77,7 +77,7 @@ vocabulary-resource-types:
     title:
       cs: Typ zdroje
       en: Resource type
-  - source: resource-types.xlsx
+  - source: resource-types.yaml
 
 vocabulary-subject-categories:
   - writer: vocabulary
@@ -86,7 +86,7 @@ vocabulary-subject-categories:
     title:
       cs: Oborové třídění
       en: Subject categories
-  - source: subject-categories.xlsx
+  - source: subject-categories.yaml
 
 vocabulary-community-types:
   - writer: vocabulary
@@ -95,4 +95,4 @@ vocabulary-community-types:
     title:
       cs: Typy komunit
       en: Community types
-  - source: community-types.xlsx
+  - source: community-types.yaml
