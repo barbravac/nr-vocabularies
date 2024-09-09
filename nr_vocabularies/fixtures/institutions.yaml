@@ -2909,3 +2909,154 @@ relatedURI:
   URL: https://www.tescan.cz
 title:
   cs: TESCAN GROUP
+---
+id: atelier-krejcirikovi
+props:
+  ICO: 05291895
+title:
+  cs: Ateliér Krejčiříkovi, s.r.o.
+---
+id: hnuti-duha
+nonpreferredLabels:
+- cs: Hnutí DUHA
+props:
+  ICO: '15547779'
+title:
+  cs: Hnutí DUHA - Friends of the Earth Czech Republic
+---
+id: kroupalide
+nonpreferredLabels:
+- cs: KROUPAHELÁN advokátní kancelář, s.r.o.
+props:
+  ICO: '29310571'
+title:
+  cs: KROUPALIDÉ advokátní kancelář s.r.o.
+---
+id: sociofactor
+nonpreferredLabels:
+- cs: SocioFactor
+props:
+  ICO: '28586336'
+relatedURI:
+  ROR: https://ror.org/01g3ety71
+title:
+  cs: SocioFactor s.r.o.
+---
+id: suip
+props:
+  ICO: '75046962'
+  acronym: SÚIP
+title:
+  cs: Státní úřad inspekce práce
+  en: State Labour Inspection Office
+---
+id: ujv-rez
+nonpreferredLabels:
+- cs: Ústav Jaderného Výzkumu Řež
+- en: ÚJV Řež, a. s.
+- cs: UJV Řež
+props:
+  ICO: '46356088'
+  acronym: NRI
+relatedURI:
+  ROR: https://ror.org/05gwtvp11
+title:
+  cs: Ústav Jaderného Výzkumu Řež, a. s.
+  en: Nuclear Research Institute Rez
+---
+id: vsmie
+props:
+  acronym: VSMIE
+relatedURI:
+  ROR: https://ror.org/015t1sz24
+title:
+  cs: Vysoká škola manažerské informatiky, ekonomiky a práva
+  en: College of Information Management Business Administration and Law
+---
+id: edri
+nonpreferredLabels:
+- cs: European Digital Rights
+props:
+  acronym: EDRi
+title:
+  en: European Digital Rights
+---
+id: central-european-policy-institute
+props:
+  acronym: CEPI
+title:
+  en: Central European Policy Institute
+---
+id: jihomoravske-dobrovolnicke-centrum
+nonpreferredLabels:
+- cs: Plán B, z. s.
+- en: Dobrovolnické centrum 67
+props:
+  ICO: '26517230'
+title:
+  cs: Jihomoravské dobrovolnické centrum z.s.
+---
+id: dcul
+props:
+  ICO: '70225842'
+  acronym: DCUL
+title:
+  cs: Dobrovolnické centrum, z. s.
+---
+id: nidm
+props:
+  acronym: NIDM
+tags:
+- deprecated
+title:
+  cs: Národní institut dětí a mládeže MŠMT
+---
+id: wipo
+props:
+  acronym: WIPO
+relatedURI:
+  ROR: https://ror.org/04anve402
+title:
+  cs: Světová organizace duševního vlastnictví
+  en: World Intellectual Property Organization
+---
+id: euipo
+nonpreferredLabels:
+- cs: Úřad pro harmonizaci na vnitřním trhu
+props:
+  acronym: EUIPO
+title:
+  cs: Úřad Evropské unie pro duševní vlastnictví
+  en: European Union Intellectual Property Office
+---
+id: migration-policy-task-force
+title:
+  en: Migration Policy Task Force
+---
+id: infodatasys
+props:
+  ICO: '43838243'
+title:
+  cs: Ing. Karel MATĚJKA, CSc.-IDS
+---
+id: norwegian-forest-and-landscape-institute
+title:
+  en: Norwegian Forest and Landscape Institute
+---
+id: isga
+props:
+  acronym: ISGA
+title:
+  en: International School Grounds Alliance
+---
+id: staatsbetrieb-sachsenforst
+props:
+  acronym: SbS
+title:
+  cs: Staatsbetrieb Sachsenforst
+---
+id: cs-ustav-pro-vyzkum-verejneho-mineni
+tags:
+- deprecated
+title:
+  cs: Československý ústav pro výzkum veřejného mínění
