@@ -448,6 +448,8 @@ title:
   en: VSB - Technical University of Ostrava
 ---
 id: vse
+nonpreferredLabels:
+- en: University of Economics, Prague
 props:
   ICO: '61384399'
   acronym: VŠE
@@ -457,7 +459,7 @@ relatedURI:
   URL: http://www.vse.cz
 title:
   cs: Vysoká škola ekonomická v Praze
-  en: University of Economics, Prague
+  en: Prague University of Economics and Business
 ---
 id: vscht
 props:
@@ -3023,8 +3025,13 @@ title:
 id: euipo
 nonpreferredLabels:
 - cs: Úřad pro harmonizaci na vnitřním trhu
+- cs: Úřad pro harmonizaci ve vnitřním trhu
+- en: OHIM
+- en: Office for Harmonization in the Internal Market 
 props:
   acronym: EUIPO
+relatedURI:
+  URL: https://www.euipo.europa.eu/
 title:
   cs: Úřad Evropské unie pro duševní vlastnictví
   en: European Union Intellectual Property Office
@@ -3056,6 +3063,8 @@ title:
   cs: Staatsbetrieb Sachsenforst
 ---
 id: cs-ustav-pro-vyzkum-verejneho-mineni
+nonpreferredLabels:
+- cs: Ústav pro výzkum veřejného mínění
 tags:
 - deprecated
 title:
