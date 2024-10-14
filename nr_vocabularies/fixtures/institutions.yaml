@@ -3069,3 +3069,23 @@ tags:
 - deprecated
 title:
   cs: Československý ústav pro výzkum veřejného mínění
+---
+id: uni-bergen
+props:
+  acronym: UiB
+relatedURI:
+  ROR: https://ror.org/03zga2b32
+  URL: https://www.uib.no/en
+nonpreferredLabels:
+- no: Universitetet i Bergen
+title:
+  en: University of Bergen
+---
+id: uni-bayreuth
+relatedURI:
+  ROR: https://ror.org/0234wmv40
+  URL: https://www.uni-bayreuth.de/en
+nonpreferredLabels:
+- de: Universität Bayreuth
+title:
+  en: University of Bayreuth
