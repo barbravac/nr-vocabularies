@@ -23,6 +23,7 @@ props:
   ICO: '25328859'
   nameType: organizational
 relatedURI:
+  ROR: https://ror.org/04rrs1z45
   URL: http://www.vukrom.cz/
 title:
   cs: Agrotest fyto
@@ -3089,3 +3090,77 @@ nonpreferredLabels:
 - de: Universität Bayreuth
 title:
   en: University of Bayreuth
+---
+id: mpsv
+props:
+  acronym: MPSV
+  ICO: '00551023'
+relatedURI:
+  ROR: https://ror.org/01bvj3e58
+  URL: http://www.mpsv.cz/
+nonpreferredLabels:
+- en: MoLSA
+- cs: Ministerstvo práce a sociálních věcí
+- cs: Ministerstvo práce a sociálních věcí ČR
+title:
+  cs: Ministerstvo práce a sociálních věcí České republiky
+  en: Ministry of Labour and Social Affairs
+---
+id: mvcr
+props:
+  acronym: MVCR
+  ICO: '00007064'
+relatedURI:
+  ROR: https://ror.org/05w1nn565
+  URL: http://www.mvcr.cz/
+nonpreferredLabels:
+- cs: Ministerstvo vnitra
+- cs: Ministerstvo vnitra ČR
+title:
+  cs: Ministerstvo vnitra České republiky
+  en: Ministry of the Interior
+---
+id: mkcr
+props:
+  acronym: MKČR
+  ICO: '00023671'
+relatedURI:
+  ROR: https://ror.org/00fxxw604
+  URL: http://www.mkcr.cz/
+nonpreferredLabels:
+- cs: Ministerstvo Kultury
+- cs: Ministerstvo Kultury ČR
+title:
+  cs: Ministerstvo Kultury České Republiky
+  en: Ministry of Culture
+---
+id: goethe-institut
+props:
+  acronym: GI
+relatedURI:
+  ROR: https://ror.org/02szraf30
+  URL: https://www.goethe.de/
+title:
+  de: Goethe Institut
+  en: Goethe Institute
+---
+id: iucn
+props:
+  acronym: IUCN
+relatedURI:
+  ROR: https://ror.org/01szdrn56
+  URL: http://www.iucn.org/
+nonpreferredLabels:
+- en: IUCN/SSC
+- en: International Union for Conservation of Nature and Natural Resources
+title:
+  en: International Union for Conservation of Nature
+---
+id: greynet
+relatedURI:
+  ROR: https://ror.org/01pxfxj80
+  URL: https://www.greynet.org
+nonpreferredLabels:
+- en: Grey Literature Network Service
+title:
+  en: GreyNet International
