@@ -3078,7 +3078,7 @@ relatedURI:
   ROR: https://ror.org/03zga2b32
   URL: https://www.uib.no/en
 nonpreferredLabels:
-- no: Universitetet i Bergen
+- 'no': Universitetet i Bergen
 title:
   en: University of Bergen
 ---
