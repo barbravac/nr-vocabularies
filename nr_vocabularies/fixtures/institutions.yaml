@@ -915,6 +915,8 @@ title:
 id: nadace-promeny-karla-komarka
 nonpreferredLabels:
 - cs: Nadace Proměny
+- cs: Nadace Proměny Karla Komárka
+- en: Karel Komárek Proměny Foundation
 props:
   ICO: '27421538'
   nameType: organizational
@@ -922,8 +924,8 @@ relatedURI:
   ROR: https://ror.org/02rs6vz87
   URL: http://www.nadace-promeny.cz/
 title:
-  cs: Nadace Proměny Karla Komárka
-  en: Karel Komárek Proměny Foundation
+  cs: Nadace Karel Komárek Family Foundation
+  en: Karel Komárek Family Foundation
 ---
 id: simi
 props:
