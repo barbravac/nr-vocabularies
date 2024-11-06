@@ -3166,3 +3166,13 @@ nonpreferredLabels:
 - en: Grey Literature Network Service
 title:
   en: GreyNet International
+---
+id: stu
+props:
+  acronym: STU
+relatedURI:
+  ROR: https://ror.org/0561ghm58
+  URL: https://www.stuba.sk/
+title:
+  sk: Slovenská technická univerzita v Bratislave
+  en: Slovak University of Technology in Bratislava

@@ -606,3 +606,21 @@ relatedURI:
 title:
   de: Fonds zur Förderung der wissenschaftlichen Forschung
   en: Austrian Science Fund
+---
+id: UPCE
+props:
+  acronym: UPCE
+relatedURI:
+  ROR: https://ror.org/01chzd453
+title:
+  cs: Univerzita Pardubice
+  en: University of Pardubice
+---
+id: APVV
+props:
+  acronym: APVV
+relatedURI:
+  ROR: https://ror.org/037nx0e70
+title:
+  sk: Agentúra na podporu výskumu a vývoja
+  en: Slovak Research and Development Agency
