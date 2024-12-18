@@ -209,7 +209,7 @@ id: bachelor
 props:
   coarType: bachelor thesis
   dataCiteType: Dissertation
-  submission: 'true'
+  submission: 'false'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_7a1f
 title:
@@ -222,7 +222,7 @@ id: master
 props:
   coarType: master thesis
   dataCiteType: Dissertation
-  submission: 'true'
+  submission: 'false'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_bdcc
 title:
@@ -237,7 +237,7 @@ nonpreferredLabels:
 props:
   coarType: thesis
   dataCiteType: Dissertation
-  submission: 'true'
+  submission: 'false'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_46ec
 title:
@@ -252,7 +252,7 @@ nonpreferredLabels:
 props:
   coarType: doctoral thesis
   dataCiteType: Dissertation
-  submission: 'true'
+  submission: 'false'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_db06
 title:
@@ -267,7 +267,7 @@ nonpreferredLabels:
 props:
   coarType: thesis
   dataCiteType: Dissertation
-  submission: 'true'
+  submission: 'false'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_46ec
 title:
