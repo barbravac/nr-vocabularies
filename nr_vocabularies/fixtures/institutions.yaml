@@ -1490,7 +1490,7 @@ title:
 ---
 id: ustav-biologie-obratlovcu-av-cr
 props:
-  ICO: '60077344'
+  ICO: '68081766'
   nameType: organizational
 relatedURI:
   ROR: https://ror.org/05bcgdd94
@@ -3179,3 +3179,60 @@ relatedURI:
 title:
   sk: Slovenská technická univerzita v Bratislave
   en: Slovak University of Technology in Bratislava
+---
+id: fu-berlin
+props:
+  acronym: FU
+relatedURI:
+  ROR: https://ror.org/046ak2485
+  URL: https://www.fu-berlin.de
+nonpreferredLabels:
+- en: FU Berlin
+title: 
+  en: Free University of Berlin
+  de: Freie Universität Berlin
+---
+id: qub
+props:
+  acronym: QUB
+relatedURI:
+  ROR: https://ror.org/00hswnk62
+  URL: https://www.qub.ac.uk
+title:
+  cy: Prifysgol y Frenhines
+  en: Queen's University Belfast
+---
+id: uni-manchester
+relatedURI:
+  ROR: https://ror.org/027m9bs27
+  URL: https://www.manchester.ac.uk
+title:
+  en: University of Manchester
+---
+id: elte
+props:
+  acronym: ELTE
+relatedURI:
+  ROR: https://ror.org/01jsq2704
+  URL: https://www.elte.hu
+title:
+  hu: Eötvös Loránd Tudományegyetem
+  en: Eötvös Loránd University
+---
+id: stfc
+props:
+  acronym: STFC
+relatedURI:
+  ROR: https://ror.org/057g20z61
+  URL: https://www.ukri.org/councils/stfc/
+title:
+  en: Science and Technology Facilities Council
+---
+id: hartree-centre
+nonpreferredLabels:
+- en: Science and Technology Facilities Council’s (STFC) Hartree Centre
+- en: STFC Hartree Centre
+relatedURI:
+  URL: https://www.hartree.stfc.ac.uk/
+title:
+  en: Hartree Centre
