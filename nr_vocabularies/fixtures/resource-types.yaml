@@ -35,6 +35,108 @@ title:
   cs: Článek
   en: Article
 ---
+hierarchy:
+  parent: article
+id: draft
+nonpreferredLabels:
+- cs: Autorský originál
+- cs: Původní článek (draft)
+- en: AO
+props:
+  coarType: journal article
+  dataCiteType: JournalArticle
+  submission: 'true'
+relatedURI:
+  COAR: http://purl.org/coar/resource_type/c_6501
+title:
+  cs: Článek - draft
+  en: Article - draft
+---
+hierarchy:
+  parent: article
+id: submitted-version
+nonpreferredLabels:
+- cs: Preprint
+- cs: Podaný článek
+- en: SMUR
+props:
+  coarType: preprint
+  dataCiteType: Preprint
+  submission: 'true'
+relatedURI:
+  COAR: http://purl.org/coar/resource_type/c_816b
+title:
+  cs: Článek - submitted version
+  en: Article - submitted version
+---
+hierarchy:
+  parent: article
+id: accepted-version
+nonpreferredLabels:
+- cs: Postprint
+- cs: Článek po recenzním řízení
+- en: AM
+props:
+  coarType: journal article
+  dataCiteType: JournalArticle
+  submission: 'true'
+relatedURI:
+  COAR: http://purl.org/coar/resource_type/c_6501
+title:
+  cs: Článek - accepted version
+  en: Article - accepted version
+---
+hierarchy:
+  parent: article
+id: published-version
+nonpreferredLabels:
+- cs: Vydaný článek
+- cs: Publikovaná verze článku
+- en: VoR
+props:
+  coarType: journal article
+  dataCiteType: JournalArticle
+  submission: 'true'
+relatedURI:
+  COAR: http://purl.org/coar/resource_type/c_6501
+title:
+  cs: Článek - published version
+  en: Article - published version
+---
+hierarchy:
+  parent: article
+id: updated-version
+nonpreferredLabels:
+- cs: Aktualizovaná publikovaná verze článku
+- cs: Aktualizovaný vydaný článek
+- en: EVoR
+props:
+  coarType: journal article
+  dataCiteType: JournalArticle
+  submission: 'true'
+relatedURI:
+  COAR: http://purl.org/coar/resource_type/c_6501
+title:
+  cs: Článek - updated version
+  en: Article - updated version
+---
+hierarchy:
+  parent: article
+id: corrected-version
+nonpreferredLabels:
+- cs: Opravený vydaný článek
+- cs: Opravená publikovaná verze článku
+- en: CVoR
+props:
+  coarType: journal article
+  dataCiteType: JournalArticle
+  submission: 'true'
+relatedURI:
+  COAR: http://purl.org/coar/resource_type/c_6501
+title:
+  cs: Článek - corrected version
+  en: Article - corrected version
+---
 id: review
 props:
   coarType: review
@@ -81,11 +183,11 @@ hierarchy:
   parent: conference-materials
 id: proceeding
 props:
-  coarType: conference output
+  coarType: conference proceedings
   dataCiteType: ConferenceProceedings
   submission: 'true'
 relatedURI:
-  COAR: http://purl.org/coar/resource_type/c_c94f
+  COAR: http://purl.org/coar/resource_type/c_f744
 title:
   cs: Konferenční sborník
   en: Conference proceeding
