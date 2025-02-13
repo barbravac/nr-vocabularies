@@ -218,6 +218,19 @@ title:
   cs: Konferenční poster
   en: Conference poster
 ---
+hierarchy:
+  parent: conference-materials
+id: presentation
+props:
+  coarType: conference presentation
+  dataCiteType: Other
+  submission: 'true'
+relatedURI:
+  COAR: http://purl.org/coar/resource_type/R60J-J5BD
+title:
+  cs: Konferenční prezentace
+  en: Conference presentation
+---
 id: data-paper
 nonpreferredLabels:
 - cs: článek o datové sadě
