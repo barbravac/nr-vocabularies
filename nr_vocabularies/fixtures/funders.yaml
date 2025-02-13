@@ -140,6 +140,14 @@ title:
   cs: Ministerstvo dopravy
   en: Ministry of Transport of the Czech Republic
 ---
+id: MDS
+props:
+  acronym: MDS
+title:
+  cs: Ministerstvo dopravy a spojů
+tags:
+- deprecated
+---
 id: MF0
 props:
   acronym: MF ČR
