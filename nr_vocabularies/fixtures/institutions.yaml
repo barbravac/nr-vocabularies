@@ -3236,3 +3236,132 @@ relatedURI:
   URL: https://www.hartree.stfc.ac.uk/
 title:
   en: Hartree Centre
+---
+id: uni-toronto
+relatedURI:
+  ROR: https://ror.org/03dbr7087
+  URL: https://www.utoronto.ca/
+nonpreferredLabels:
+- fr: Université de Toronto
+title:
+  en: University of Toronto
+---
+id: wigner
+props:
+  acronym: MTA Wigner RC
+relatedURI:
+  ROR: https://ror.org/035dsb084
+  URL: https://wigner.hu/en
+nonpreferredLabels:
+- en: Wigner RCP
+title:
+  hu: Wigner Fizikai Kutatóközpont
+  en: Wigner Research Centre for Physics
+---
+id: tum
+props:
+  acronym: TUM
+relatedURI:
+  ROR: https://ror.org/02kkvpp62
+  URL: https://www.tum.de
+title:
+  de: Technische Universität München
+  en: Technical University of Munich
+---
+id: metu
+props:
+  acronym: METU
+  acronym: ODTÜ
+relatedURI:
+  ROR: https://ror.org/014weej12
+  URL: https://www.metu.edu.tr
+title:
+  tr: Orta Doğu Teknik Üniversitesi
+  en: Middle East Technical University
+---
+id: vu
+props:
+  acronym: VU
+relatedURI:
+  ROR: https://ror.org/008xxew50
+  URL: https://vu.nl/
+nonpreferredLabels:
+- en: VU Amsterdam
+title:
+  en: Vrije Universiteit Amsterdam
+---
+id: uniba
+relatedURI:
+  ROR: https://ror.org/0587ef340
+  URL: https://uniba.sk/
+nonpreferredLabels:
+- hu: Comenius Egyetem
+- de: Comenius-Universität Bratislava
+- es: Universidad Comenius de Bratislava
+- la: Universitas Comeniana Bratislavensis
+- fr: Université Commenius de Bratislava
+title:
+  sk: Univerzita Komenského v Bratislave
+  en: Comenius University Bratislava
+---
+id: nscc
+props:
+  acronym: NSCC
+relatedURI:
+  URL: https://nscc.sk/
+title:
+  sk: Národné superpočítačové centrum
+  en: Slovak National Supercomputing Centre
+---
+id: vssav
+props:
+  acronym: VS SAV
+relatedURI:
+  URL: https://vs.sav.sk/
+title:
+  sk: Výpočtové stredisko Slovenskej akadémie vied
+  en: Computing Centre of the Slovak Academy od Sciences
+---
+id: am-uni
+props:
+  acronym: AMU
+relatedURI:
+  ROR: https://ror.org/035xkbk20
+  URL: http://www.univ-amu.fr/
+nonpreferredLabels:
+- en: Paul Cézanne University
+- en: University of Provence
+- en: University of the Mediterranean
+- fr: Université d'Aix-Marseille
+title:
+  fr: Aix-Marseille Université
+  en: Aix-Marseille University
+---
+id: iuf
+props:
+  acronym: IUF
+relatedURI:
+  ROR: https://ror.org/055khg266
+  URL: http://iuf.amue.fr/
+title:
+  fr: Institut Universitaire de France
+---
+id: xmu
+props:
+  acronym: XMU
+relatedURI:
+  ROR: https://ror.org/00mcjh785
+  URL: https://www.xmu.edu.cn
+title:
+  zh: Xiàmén Dàxué
+  en: Xiamen University
+---
+id: umk
+props:
+  acronym: UMK
+relatedURI:
+  ROR: https://ror.org/0102mm775
+  URL: https://www.umk.pl
+title:
+  pl: Uniwersytet Mikołaja Kopernika w Toruniu
+  en: Nicolaus Copernicus University
