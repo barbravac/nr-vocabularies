@@ -632,3 +632,12 @@ relatedURI:
 title:
   sk: Agentúra na podporu výskumu a vývoja
   en: Slovak Research and Development Agency
+---
+id: MU
+props:
+  acronym: MU
+relatedURI:
+  ROR: https://ror.org/02j46qs45
+title:
+  cz: Masarykova univerzita
+  en: Masaryk University
