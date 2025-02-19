@@ -295,6 +295,7 @@ title:
 id: TA0
 nonpreferredLabels:
 - en: TA CR
+- cs: TAČR
 props:
   acronym: TA ČR
 relatedURI:
@@ -641,3 +642,12 @@ relatedURI:
 title:
   cz: Masarykova univerzita
   en: Masaryk University
+---
+id: NAZV
+props:
+  acronym: NAZV
+relatedURI:
+  ROR: https://ror.org/051rtqg79
+title:
+  cz: Národní agentura pro zemědělský výzkum
+  en: National Agency for Agricultural Research
