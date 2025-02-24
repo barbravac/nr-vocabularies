@@ -1260,7 +1260,6 @@ title:
 ---
 id: entomologicky-ustav-av-cr
 props:
-  ICO: '60077344'
   nameType: organizational
 relatedURI:
   ROR: https://ror.org/039nazg33
@@ -1348,9 +1347,9 @@ title:
 ---
 id: hydrobiologicky-ustav-av-cr
 props:
-  ICO: '60077344'
   nameType: organizational
 relatedURI:
+  ROR: https://ror.org/0436nxt45
   URL: http://www.hbu.cas.cz
 title:
   cs: Hydrobiologický ústav AV ČR
@@ -1413,7 +1412,6 @@ title:
 ---
 id: parazitologicky-ustav-av-cr
 props:
-  ICO: '60077344'
   nameType: organizational
 relatedURI:
   ROR: https://ror.org/05rhyza23
@@ -1644,7 +1642,6 @@ title:
 ---
 id: ustav-molekularni-biologie-rostlin-av-cr
 props:
-  ICO: '60077344'
   nameType: organizational
 relatedURI:
   ROR: https://ror.org/00jr65m43
@@ -1742,7 +1739,6 @@ title:
 ---
 id: ustav-pudni-biologie-av-cr
 props:
-  ICO: '60077344'
   nameType: organizational
 relatedURI:
   ROR: https://ror.org/02tz8r820
