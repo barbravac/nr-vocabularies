@@ -640,7 +640,7 @@ props:
 relatedURI:
   ROR: https://ror.org/02j46qs45
 title:
-  cz: Masarykova univerzita
+  cs: Masarykova univerzita
   en: Masaryk University
 ---
 id: NAZV
@@ -649,5 +649,5 @@ props:
 relatedURI:
   ROR: https://ror.org/051rtqg79
 title:
-  cz: Národní agentura pro zemědělský výzkum
+  cs: Národní agentura pro zemědělský výzkum
   en: National Agency for Agricultural Research

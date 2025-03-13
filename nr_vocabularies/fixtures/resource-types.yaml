@@ -35,8 +35,6 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_6501
-tags:
-- depositable
 title:
   cs: Článek
   en: Article
