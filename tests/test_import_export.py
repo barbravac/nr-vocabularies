@@ -10,6 +10,14 @@ def test_complex_import_export(app, db, cache, search_clear, vocab_cf, caplog):
     caplog.set_level(logging.ERROR)
     load_callback = StatsKeepingDataStreamCallback()
     load_fixtures(batch_size=100, callback=load_callback)
+    
+    # Log the number of failed entries
+    logging.error(f"Failed entries count: {load_callback.failed_entries_count}")
+    
+    if load_callback.failed_entries_count > 0:
+        for record in caplog.records:
+            print(record.message)
+    
     assert load_callback.failed_entries_count == 0
     assert load_callback.filtered_entries_count == 0
     assert load_callback.ok_entries_count == 1627
