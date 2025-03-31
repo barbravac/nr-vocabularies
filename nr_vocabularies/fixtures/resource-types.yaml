@@ -49,7 +49,7 @@ nonpreferredLabels:
 props:
   coarType: journal article
   dataCiteType: JournalArticle
-  description: AO: Autorský původní rukopis článku.
+  description: 'AO: Autorský původní rukopis článku.'
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_6501
