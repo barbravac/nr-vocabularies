@@ -32,7 +32,7 @@ id: article
 props:
   coarType: journal article
   dataCiteType: JournalArticle
-  submission: 'true'
+  submission: 'false'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_6501
 title:
@@ -40,8 +40,8 @@ title:
   en: Article
 ---
 description:
-  cs: AO. Autorský původní rukopis článku. 
-  en: AO. Author's original draft of the article. 
+  cs: "AO. Autorský původní rukopis článku."
+  en: "AO. Author's original draft of the article."
 hierarchy:
   parent: article
 id: draft
@@ -62,8 +62,8 @@ title:
   en: Article - draft
 ---
 description:
-  cs: SMUR. Verze článku přijatá k recenznímu řízení (preprint).
-  en: SMUR. Article version accepted for formal review by a publisher (preprint).
+  cs: "SMUR. Verze článku přijatá k recenznímu řízení (preprint)."
+  en: "SMUR. Article version accepted for formal review by a publisher (preprint)."
 hierarchy:
   parent: article
 id: submitted-version
@@ -84,8 +84,8 @@ title:
   en: Article - submitted version
 ---
 description:
-  cs: AM. Přijatá verze článku po recenzním řízení (postprint).
-  en: AM. Version accepted for publication (postprint).
+  cs: "AM. Přijatá verze článku po recenzním řízení (postprint)."
+  en: "AM. Version accepted for publication (postprint)."
 hierarchy:
   parent: article
 id: accepted-version
@@ -106,15 +106,15 @@ title:
   en: Article - accepted version
 ---
 description:
-  cs: VoR. Vydavatelská verze článku.
-  en: VoR. Publisher version.
+  cs: "VoR. Vydavatelská verze článku."
+  en: "VoR. Publisher version."
 hierarchy:
   parent: article
 id: published-version
 nonpreferredLabels:
 - cs: Vydaný článek
 - cs: Publikovaná verze článku
-- cs: Version of Record: publikovaná verze
+- cs: "Version of Record: publikovaná verze"
 - en: VoR
 - en: (Final) published version
 - en: Publisher´s final version
@@ -131,8 +131,8 @@ title:
   en: Article - published version
 ---
 description:
-  cs: EVoR. Aktualizovaná vydavatelská verze článku.
-  en: EVoR. Version of publisher version that has been updated.
+  cs: "EVoR. Aktualizovaná vydavatelská verze článku."
+  en: "EVoR. Version of publisher version that has been updated."
 hierarchy:
   parent: article
 id: updated-version
@@ -153,8 +153,8 @@ title:
   en: Article - updated version
 ---
 description:
-  cs: CVoR. Opravená vydavatelská verze článku.
-  en: CVoR. Corrected version of publisher version.
+  cs: "CVoR. Opravená vydavatelská verze článku."
+  en: "CVoR. Corrected version of publisher version."
 hierarchy:
   parent: article
 id: corrected-version
