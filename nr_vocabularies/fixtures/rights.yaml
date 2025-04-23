@@ -1,3 +1,10 @@
+id: N-A
+title:
+  cs: Informace o právech nalezenete v původním záznamu.
+  en: For rights information, see the original record.
+tags:
+- deprecated
+---
 id: CC
 title:
   cs: Licence Creative Commons
