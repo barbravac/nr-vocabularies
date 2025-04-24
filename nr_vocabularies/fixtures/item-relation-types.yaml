@@ -366,7 +366,7 @@ title:
   en: collects
 ---
 hint:
-  en: Indicates A is a translation of B. When a resource is shared in one language, then later translated to another, use “IsTranslationOf” to link the translation to the original.
+  en: Indicates A is a translation of B. When a resource is shared in one language, then later translated to another, use to link the translation to the original.
 id: IsTranslationOf
 props:
   pair: HasTranslation
@@ -375,7 +375,7 @@ title:
   en: is translation of
 ---
 hint:
-  en: Indicates A has a translation B. When a resource is shared in one language, then later translated to another, use “HasTranslation” to link the original resource to its translation. When a resource is released at the same time in multiple languages, use “HasTranslation” to connect the works to each other in both directions.
+  en: Indicates A has a translation B. When a resource is shared in one language, then later translated to another, use to link the original resource to its translation. When a resource is released at the same time in multiple languages, use to connect the works to each other in both directions.
 id: HasTranslation
 props:
   pair: IsTranslationOf
