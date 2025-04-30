@@ -3371,3 +3371,15 @@ relatedURI:
 title:
   pl: Uniwersytet Mikołaja Kopernika w Toruniu
   en: Nicolaus Copernicus University
+---
+id: likat
+props:
+  acronym: LIKAT
+relatedURI:
+  ROR: https://ror.org/029hg0311
+  URL: https://www.catalysis.de
+nonpreferredLabels:
+- de: LIKAT Rostock
+title:
+  de: Leibniz-Institut für Katalyse e.V.
+  en: Leibniz Institute for Catalysis
