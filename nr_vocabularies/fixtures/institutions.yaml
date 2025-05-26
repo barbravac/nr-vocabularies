@@ -3383,3 +3383,15 @@ nonpreferredLabels:
 title:
   de: Leibniz-Institut für Katalyse e.V.
   en: Leibniz Institute for Catalysis
+---
+id: uni-graz
+relatedURI:
+  ROR: https://ror.org/01faaaf77
+  URL: https://www.uni-graz.at/en/
+nonpreferredLabels:
+- la: Carolo Franciscea Graecensis
+- de: Karl-Franzens-Universität Graz
+- hr: Sveučilište u Grazu
+- sl: Univerza v Gradcu
+title:
+  en: University of Graz
