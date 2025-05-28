@@ -658,3 +658,12 @@ relatedURI:
 title:
   cs: Národní agentura pro zemědělský výzkum
   en: National Agency for Agricultural Research
+---
+id: ERC
+props:
+  acronym: ERC
+relatedURI:
+  ROR: https://ror.org/0472cxd90
+title:
+  cs: Evropská rada pro výzkum
+  en: European Research Council
