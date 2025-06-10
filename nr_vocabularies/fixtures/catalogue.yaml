@@ -43,14 +43,14 @@ vocabulary-funders:
       en: Research funders
   - source: funders.yaml
 
-vocabulary-institutions:
-  - writer: vocabulary
-    vocabulary: institutions
-    pid_type: v-i
-    title:
-      cs: Instituce
-      en: Institutions
-  - source: institutions.yaml
+# vocabulary-institutions:
+#   - writer: vocabulary
+#     vocabulary: institutions
+#     pid_type: v-i
+#     title:
+#       cs: Instituce
+#       en: Institutions
+#   - source: institutions.yaml
 
 vocabulary-item-relation-types:
   - writer: vocabulary
