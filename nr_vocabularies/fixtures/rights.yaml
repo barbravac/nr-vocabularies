@@ -36,9 +36,9 @@ description:
 hierarchy:
   parent: CC-1.0
 icon: https://licensebuttons.net/l/by/1.0/88x31.png
-id: 1-BY
+id: CC-BY-1.0
 props:
-  acronym: 1-BY
+  acronym: CC-BY-1.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by/1.0/
 title:
@@ -57,9 +57,9 @@ description:
 hierarchy:
   parent: CC-1.0
 icon: https://licensebuttons.net/l/by-sa/1.0/88x31.png
-id: 1-BY-SA
+id: CC-BY-SA-1.0
 props:
-  acronym: 1-BY-SA
+  acronym: CC-BY-SA-1.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-sa/1.0/
 title:
@@ -77,9 +77,9 @@ description:
 hierarchy:
   parent: CC-1.0
 icon: https://licensebuttons.net/l/by-nc/1.0/88x31.png
-id: 1-BY-NC
+id: CC-BY-NC-1.0
 props:
-  acronym: 1-BY-NC
+  acronym: CC-BY-NC-1.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc/1.0/
 title:
@@ -100,9 +100,9 @@ description:
 hierarchy:
   parent: CC-1.0
 icon: https://licensebuttons.net/l/by-nc-sa/1.0/88x31.png
-id: 1-BY-NC-SA
+id: CC-BY-NC-SA-1.0
 props:
-  acronym: 1-BY-NC-SA
+  acronym: CC-BY-NC-SA-1.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc-sa/1.0/
 title:
@@ -121,9 +121,9 @@ description:
 hierarchy:
   parent: CC-1.0
 icon: https://licensebuttons.net/l/by-nd/1.0/88x31.png
-id: 1-BY-ND
+id: CC-BY-ND-1.0
 props:
-  acronym: 1-BY-ND
+  acronym: CC-BY-ND-1.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nd/1.0/
 title:
@@ -141,9 +141,9 @@ description:
 hierarchy:
   parent: CC-1.0
 icon: https://licensebuttons.net/l/by-nd-nc/1.0/88x31.png
-id: 1-BY-ND-NC
+id: CC-BY-ND-NC-1.0
 props:
-  acronym: 1-BY-ND-NC
+  acronym: CC-BY-ND-NC-1.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nd-nc/1.0/
 title:
@@ -177,9 +177,9 @@ description:
 hierarchy:
   parent: CC-2.0
 icon: https://licensebuttons.net/l/by/2.0/88x31.png
-id: 2-BY
+id: CC-BY-2.0
 props:
-  acronym: 2-BY
+  acronym: CC-BY-2.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by/2.0/
 title:
@@ -198,9 +198,9 @@ description:
 hierarchy:
   parent: CC-2.0
 icon: https://licensebuttons.net/l/by-sa/2.0/88x31.png
-id: 2-BY-SA
+id: CC-BY-SA-2.0
 props:
-  acronym: 2-BY-SA
+  acronym: CC-BY-SA-2.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-sa/2.0/
 title:
@@ -218,9 +218,9 @@ description:
 hierarchy:
   parent: CC-2.0
 icon: https://licensebuttons.net/l/by-nc/2.0/88x31.png
-id: 2-BY-NC
+id: CC-BY-NC-2.0
 props:
-  acronym: 2-BY-NC
+  acronym: CC-BY-NC-2.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc/2.0/
 title:
@@ -241,9 +241,9 @@ description:
 hierarchy:
   parent: CC-2.0
 icon: https://licensebuttons.net/l/by-nc-sa/2.0/88x31.png
-id: 2-BY-NC-SA
+id: CC-BY-NC-SA-2.0
 props:
-  acronym: 2-BY-NC-SA
+  acronym: CC-BY-NC-SA-2.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc-sa/2.0/
 title:
@@ -262,9 +262,9 @@ description:
 hierarchy:
   parent: CC-2.0
 icon: https://licensebuttons.net/l/by-nd/2.0/88x31.png
-id: 2-BY-ND
+id: CC-BY-ND-2.0
 props:
-  acronym: 2-BY-ND
+  acronym: CC-BY-ND-2.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nd/2.0/
 title:
@@ -282,9 +282,9 @@ description:
 hierarchy:
   parent: CC-2.0
 icon: https://licensebuttons.net/l/by-nc-nd/2.0/88x31.png
-id: 2-BY-NC-ND
+id: CC-BY-NC-ND-2.0
 props:
-  acronym: 2-BY-NC-ND
+  acronym: CC-BY-NC-ND-2.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc-nd/2.0/
 title:
@@ -318,9 +318,9 @@ description:
 hierarchy:
   parent: CC-2.5
 icon: https://licensebuttons.net/l/by/2.5/88x31.png
-id: 2-5-BY
+id: CC-BY-2.5
 props:
-  acronym: 2-5-BY
+  acronym: CC-BY-2.5
 relatedURI:
   URL: https://creativecommons.org/licenses/by/2.5/
 title:
@@ -339,9 +339,9 @@ description:
 hierarchy:
   parent: CC-2.5
 icon: https://licensebuttons.net/l/by-sa/2.5/88x31.png
-id: 2-5-BY-SA
+id: CC-BY-SA-2.5
 props:
-  acronym: 2-5-BY-SA
+  acronym: CC-BY-SA-2.5
 relatedURI:
   URL: https://creativecommons.org/licenses/by-sa/2.5/
 title:
@@ -359,9 +359,9 @@ description:
 hierarchy:
   parent: CC-2.5
 icon: https://licensebuttons.net/l/by-nc/2.5/88x31.png
-id: 2-5-BY-NC
+id: CC-BY-NC-2.5
 props:
-  acronym: 2-5-BY-NC
+  acronym: CC-BY-NC-2.5
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc/2.5/
 title:
@@ -382,9 +382,9 @@ description:
 hierarchy:
   parent: CC-2.5
 icon: https://licensebuttons.net/l/by-nc-sa/2.5/88x31.png
-id: 2-5-BY-NC-SA
+id: CC-BY-NC-SA-2.5
 props:
-  acronym: 2-5-BY-NC-SA
+  acronym: CC-BY-NC-SA-2.5
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc-sa/2.5/
 title:
@@ -403,9 +403,9 @@ description:
 hierarchy:
   parent: CC-2.5
 icon: https://licensebuttons.net/l/by-nd/2.5/88x31.png
-id: 2-5-BY-ND
+id: CC-BY-ND-2.5
 props:
-  acronym: 2-5-BY-ND
+  acronym: CC-BY-ND-2.5
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nd/2.5/
 title:
@@ -423,9 +423,9 @@ description:
 hierarchy:
   parent: CC-2.5
 icon: https://licensebuttons.net/l/by-nc-nd/2.5/88x31.png
-id: 2-5-BY-NC-ND
+id: CC-BY-NC-ND-2.5
 props:
-  acronym: 2-5-BY-NC-ND
+  acronym: CC-BY-NC-ND-2.5
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc-nd/2.5/
 title:
@@ -459,9 +459,9 @@ description:
 hierarchy:
   parent: CC-3.0
 icon: https://licensebuttons.net/l/by/3.0/88x31.png
-id: 3-BY-CZ
+id: CC-BY-CZ-3.0
 props:
-  acronym: 3-BY-CZ
+  acronym: CC-BY-CZ-3.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by/3.0/cz/
 title:
@@ -480,9 +480,9 @@ description:
 hierarchy:
   parent: CC-3.0
 icon: https://licensebuttons.net/l/by-sa/3.0/88x31.png
-id: 3-BY-SA-CZ
+id: CC-BY-SA-CZ-3.0
 props:
-  acronym: 3-BY-SA-CZ
+  acronym: CC-BY-SA-CZ-3.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-sa/3.0/cz/
 title:
@@ -500,9 +500,9 @@ description:
 hierarchy:
   parent: CC-3.0
 icon: https://licensebuttons.net/l/by-nc/3.0/88x31.png
-id: 3-BY-NC-CZ
+id: CC-BY-NC-CZ-3.0
 props:
-  acronym: 3-BY-NC-CZ
+  acronym: CC-BY-NC-CZ-3.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc/3.0/cz/
 title:
@@ -523,9 +523,9 @@ description:
 hierarchy:
   parent: CC-3.0
 icon: https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png
-id: 3-BY-NC-SA-CZ
+id: CC-BY-NC-SA-CZ-3.0
 props:
-  acronym: 3-BY-NC-SA-CZ
+  acronym: CC-BY-NC-SA-CZ-3.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc-sa/3.0/cz/
 title:
@@ -543,9 +543,9 @@ description:
 hierarchy:
   parent: CC-3.0
 icon: https://licensebuttons.net/l/by-nd/3.0/88x31.png
-id: 3-BY-ND-CZ
+id: CC-BY-ND-CZ-3.0
 props:
-  acronym: 3-BY-ND-CZ
+  acronym: CC-BY-ND-CZ-3.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nd/3.0/cz/
 title:
@@ -563,9 +563,9 @@ description:
 hierarchy:
   parent: CC-3.0
 icon: https://licensebuttons.net/l/by-nc-nd/3.0/88x31.png
-id: 3-BY-NC-ND-CZ
+id: CC-BY-NC-ND-CZ-3.0
 props:
-  acronym: 3-BY-NC-ND-CZ
+  acronym: CC-BY-NC-ND-CZ-3.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc-nd/3.0/cz/
 title:
@@ -596,9 +596,9 @@ description:
 hierarchy:
   parent: CC-4.0
 icon: https://licensebuttons.net/l/by/4.0/88x31.png
-id: 4-BY
+id: CC-BY-4.0
 props:
-  acronym: 4-BY
+  acronym: CC-BY-4.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by/4.0/
 tags:
@@ -620,9 +620,9 @@ description:
 hierarchy:
   parent: CC-4.0
 icon: https://licensebuttons.net/l/by-sa/4.0/88x31.png
-id: 4-BY-SA
+id: CC-BY-SA-4.0
 props:
-  acronym: 4-BY-SA
+  acronym: CC-BY-SA-4.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-sa/4.0/
 tags:
@@ -642,9 +642,9 @@ description:
 hierarchy:
   parent: CC-4.0
 icon: https://licensebuttons.net/l/by-nc/4.0/88x31.png
-id: 4-BY-NC
+id: CC-BY-NC-4.0
 props:
-  acronym: 4-BY-NC
+  acronym: CC-BY-NC-4.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc/4.0/
 tags:
@@ -668,9 +668,9 @@ description:
 hierarchy:
   parent: CC-4.0
 icon: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-id: 4-BY-NC-SA
+id: CC-BY-NC-SA-4.0
 props:
-  acronym: 4-BY-NC-SA
+  acronym: CC-BY-NC-SA-4.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc-sa/4.0/
 tags:
@@ -691,9 +691,9 @@ description:
 hierarchy:
   parent: CC-4.0
 icon: https://licensebuttons.net/l/by-nd/4.0/88x31.png
-id: 4-BY-ND
+id: CC-BY-ND-4.0
 props:
-  acronym: 4-BY-ND
+  acronym: CC-BY-ND-4.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nd/4.0/
 tags:
@@ -714,9 +714,9 @@ description:
 hierarchy:
   parent: CC-4.0
 icon: https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png
-id: 4-BY-NC-ND
+id: CC-BY-NC-ND-4.0
 props:
-  acronym: 4-BY-NC-ND
+  acronym: CC-BY-NC-ND-4.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc-nd/4.0/
 tags:
