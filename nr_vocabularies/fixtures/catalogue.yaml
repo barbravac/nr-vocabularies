@@ -34,14 +34,14 @@ vocabulary-degree-grantors:
       en: Degree grantors
   - source: degree-grantors.yaml
 
-vocabulary-funders:
-  - writer: vocabulary
-    vocabulary: funders
-    pid_type: v-f
-    title:
-      cs: Poskytovatelé finanční podpory
-      en: Research funders
-  - source: funders.yaml
+# vocabulary-funders:
+#   - writer: vocabulary
+#     vocabulary: funders
+#     pid_type: v-f
+#     title:
+#       cs: Poskytovatelé finanční podpory
+#       en: Research funders
+#   - source: funders.yaml
 
 # vocabulary-institutions:
 #   - writer: vocabulary
