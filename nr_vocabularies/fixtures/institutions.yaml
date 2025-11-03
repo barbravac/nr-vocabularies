@@ -47,6 +47,8 @@ props:
 relatedURI:
   ROR: https://ror.org/01pzyyx54
   URL: http://www.nipos-mk.cz/
+tags:
+- deprecated
 title:
   cs: Národní informační a poradenské středisko pro kulturu
   en: National Information and Consulting Centre for Culture
@@ -1861,18 +1863,18 @@ title:
   en: Czech National Bank
 ---
 id: idu
-nonpreferredLabels:
-- cs: Institut umění - Divadelní ústav
 props:
   ICO: '00023205'
-  acronym: NIPK
+  acronym: IDU
   nameType: organizational
 relatedURI:
   ROR: https://ror.org/024jn1h80
-  URL: https://nipk.cz/
+  URL: http://www.idu.cz/
+tags:
+- deprecated
 title:
-  cs: Národní institut pro kulturu
-  en: Czech Cultural Institute
+  cs: Institut umění - Divadelní ústav
+  en: Arts and Theatre Institute
 ---
 id: npu
 props:
@@ -3421,3 +3423,48 @@ relatedURI:
   URL: https://www.davinci-ls.com/en-us/home
 title:
   en: Da Vinci Laboratory Solutions UK & Ireland
+---
+id: nik
+props:
+  ICO: '00023205'
+  acronym: NIK
+  nameType: organizational
+relatedURI:
+  URL: https://nipk.cz/
+title:
+  cs: Národní institut pro kulturu
+  en: Czech Cultural Institute
+---
+id: uni-silesia
+nonpreferredLabels:
+- en: University in Silesia
+props:
+  acronym: UŚ
+relatedURI:
+  ROR: https://ror.org/0104rcc94
+  URL: https://us.edu.pl/
+title:
+  en: University of Silesia in Katowice
+---
+id: lodz-technology
+nonpreferredLabels:
+- en: Technical University of Lodz
+props:
+  acronym: TUL
+relatedURI:
+  ROR: https://ror.org/00s8fpf52
+  URL: https://p.lodz.pl
+title:
+  pl: Politechnika Łódzka
+  en: Lodz University of Technology
+---
+id: cherkasy-uni
+nonpreferredLabels:
+- en: Bohdan Khmelnytsky National University of Cherkasy
+props:
+  acronym: ChNU
+relatedURI:
+  ROR: https://ror.org/009apaj69
+  URL: http://www.cdu.edu.ua/
+title:
+  en: Cherkasy National University
