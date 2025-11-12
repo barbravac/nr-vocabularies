@@ -674,3 +674,22 @@ props:
 title:
   cs: Grantová agentura Jihočeské univerzity
   en: Grant Agency of University of South Bohemia
+---
+id: linkoping-uni
+props:
+  acronym: LiU
+relatedURI:
+  ROR: https://ror.org/05ynxx418
+title:
+  en: Linköping University
+  fi: Linköpingin Yliopisto
+  sv: Linköpings Universitet
+---
+id: vr
+props:
+  acronym: VR
+relatedURI:
+  ROR: https://ror.org/03zttf063
+title:
+  en: Swedish Research Council
+  sv: Vetenskapsrådet
