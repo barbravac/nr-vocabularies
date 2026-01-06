@@ -693,3 +693,13 @@ relatedURI:
 title:
   en: Swedish Research Council
   sv: Vetenskapsrådet
+---
+id: azvcr
+props:
+  acronym: AZV ČR
+relatedURI:
+  ROR: https://ror.org/05m8t8e28
+title:
+  cs: Agentura pro zdravotnický výzkum České republiky
+  en: Agency for Health Research of the Czech Republic
+---
