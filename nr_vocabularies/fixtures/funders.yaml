@@ -703,3 +703,11 @@ title:
   cs: Agentura pro zdravotnický výzkum České republiky
   en: Agency for Health Research of the Czech Republic
 ---
+id: VUT
+props:
+  acronym: VUT
+relatedURI:
+  ROR: https://ror.org/03613d656
+title:
+  cs: Vysoké učení technické v Brně
+  en: Brno University of Technology
