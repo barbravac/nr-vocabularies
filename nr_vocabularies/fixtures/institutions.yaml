@@ -3355,6 +3355,7 @@ relatedURI:
   URL: http://iuf.amue.fr/
 title:
   fr: Institut Universitaire de France
+  en: Institut Universitaire de France
 ---
 id: xmu
 props:
@@ -3468,3 +3469,18 @@ relatedURI:
   URL: http://www.cdu.edu.ua/
 title:
   en: Cherkasy National University
+---
+id: uni-munster
+nonpreferredLabels:
+- en: University of Muenster
+- de: Universitaet Muenster
+- de: Westfälische Wilhelms-Universität Münster
+props:
+  acronym: UM
+relatedURI:
+  ROR: https://ror.org/00pd74e08
+  URL: https://www.uni-muenster.de
+title:
+  de: Universität Münster
+  en: University of Münster
+---
