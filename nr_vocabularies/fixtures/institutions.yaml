@@ -3484,3 +3484,12 @@ title:
   de: Universität Münster
   en: University of Münster
 ---
+id: uw
+props:
+  acronym: UW
+relatedURI:
+  ROR: https://ror.org/039bjqg32
+  URL: http://en.uw.edu.pl/
+title:
+  pl: Uniwersytet Warszawski
+  en: University of Warsaw
