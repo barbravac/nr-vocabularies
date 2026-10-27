@@ -3431,6 +3431,7 @@ props:
   acronym: NIK
   nameType: organizational
 relatedURI:
+  ROR: https://ror.org/024jn1h80
   URL: https://nipk.cz/
 title:
   cs: Národní institut pro kulturu
